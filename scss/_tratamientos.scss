@@ -1,0 +1,22 @@
+.tituloTratamientos {
+    background-color: $color-titulos;
+    color: $color-blanco;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+  
+    h2 {
+      font-size: 40px;
+    }
+  }
+  
+  a.btn.colorBtn {
+    background-color: rgb(255, 32, 162);
+    color: $color-blanco;
+    font-size: 25px;
+  
+    &:hover {
+      background-color: rgb(233, 3, 137);
+    }
+  }
+  

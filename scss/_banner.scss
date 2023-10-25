@@ -1,0 +1,23 @@
+.imgCara {
+    background-image: url(../img/Cara.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  
+    h1 {
+      font-size: 45px;
+      font-weight: 600;
+    }
+  
+    p {
+      font-weight: bold;
+      font-size: 50px;
+    }
+  }
+  

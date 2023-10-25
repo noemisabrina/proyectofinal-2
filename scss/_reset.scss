@@ -1,0 +1,25 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 210, 217);
+}
+
+.imagenLogo {
+    width: 180px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3,
+h1,
+h2 {
+    font-family: 'Philosopher', sans-serif;
+}

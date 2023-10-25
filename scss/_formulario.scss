@@ -1,0 +1,53 @@
+.containerForm {
+    background-image: url(../img/faciales.jpg);
+    background-size: 100vw;
+    background-attachment: fixed;
+    margin: 0%;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-top: 0px;
+    border-radius: 7px;
+
+    h2 {
+        color: #fafafa;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 30px;
+        margin: 0;
+    }
+}
+
+.formText {
+    width: 100%;
+    margin-bottom: 35px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: rgb(255, 24, 205);
+    color: $color-blanco;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+
+    &:hover {
+        background-color: rgb(228, 0, 178);
+        color: $color-blanco;
+        cursor: pointer;
+    }
+}
